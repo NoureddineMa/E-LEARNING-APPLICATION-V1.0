@@ -1,2 +1,3 @@
 # TABLEAU SCRUM : 
-https://www.notion.so/d2f5676132984e529570d223dc8c8d58?v=5bf740ce07fe423e996f846a6f5d5861
+( Contient les taches de toute la squad )
+https://www.notion.so/1157390a6e804ef78c8645e72458252c?v=706d72ac74064356a0b3fe03c283fa5c
