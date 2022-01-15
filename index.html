@@ -22,45 +22,51 @@
   </head>
   <!-- start body  -->
   <body>
-    <section class="container-fluid">
-      <section class="row d-flex justify-content-center">
-        <section class="col-sm-3">
-          <form class="form-container px-5 py-5 rounded shadow bg-body">
-            <h1>E-classe</h1>
-            <h4 class="text-uppercase text-center mt-4">Sign In</h4>
-            <p class="text-center">
-              Enter your credentials to access your account
-            </p>
-            <div class="mb-3 mt-4 col-sm-3 w-100">
+    <section
+      class="container-fluid vh-100 d-flex justify-content-center align-items-center"
+    >
+      <section
+        class="rounded p-4 col-lg-4 col-md-6 col-sm-7 bg-white shadow px-5 py-5"
+      >
+        <section class="row">
+          <form class="form-container">
+            <h1 class="ps-3 ms-4 fw-bolder">E-classe</h1>
+            <div class="text-center mt-5">
+              <h2 class="text-uppercase">Sign In</h2>
+              <p class="text-secondary">
+                Enter your credentials to access your account
+              </p>
+            </div>
+            <div class="mb-4">
               <label for="InputEmail1" class="form-label mt-3">Email</label>
               <input
                 type="email"
-                class="form-control shadow-none"
+                class="form-control py-3"
                 placeholder="Enter your email"
                 id="InputEmail1"
                 aria-describedby="emailHelp"
               />
             </div>
-            <div class="mb-3 col-sm-3 w-100">
+            <div class="mb-4">
               <label for="InputPassword1" class="form-label mt-1"
                 >Password</label
               >
               <input
                 type="password"
                 placeholder="Enter Your Password"
-                class="form-control shadow-none"
+                class="form-control py-3"
                 id="InputPassword1"
               />
             </div>
             <button
               type="submit"
-              class="btn btn-primary btnn col-xs-4 text-uppercase mt-3 w-100 btn-lg"
+              class="btn btn-info btn-lg w-100 text-white p-3 mt-2"
             >
               Sign in
             </button>
-            <p class="text-center mt-4">
+            <p class="text-center mt-4 pt-3 fs-6 text-muted">
               Forgot your password?
-              <a href="#"> <span class="reset"> Reset Password</span></a>
+              <a class="lien" href="#"> Reset Password</a>
             </p>
           </form>
         </section>

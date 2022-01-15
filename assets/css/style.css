@@ -1,22 +1,13 @@
 body {
   background: linear-gradient(69.66deg, #00c1fe 19.39%, #faffc1 96.69%);
-  width: 100%;
-  height: 100vh;
   font-family: "Montserrat", sans-serif;
 }
-
 .form-container h1 {
   border-left: 8px solid #00c1fe;
-  padding-left: 9px;
-}
-
-.btnn {
-  background-color: #00c1fe;
-  border: none;
-}
-.reset {
-  color: #00c1fe;
 }
 .rounded {
   border-radius: 1.25rem !important;
+}
+.lien {
+  color: #00c1fe;
 }
