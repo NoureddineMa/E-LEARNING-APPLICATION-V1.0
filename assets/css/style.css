@@ -49,3 +49,29 @@ h3 {
 .co-ic {
   color: #ee95c5;
 }
+.ic {
+  font-size: 12px;
+}
+.prop {
+  font-size: 12px;
+}
+::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  color: red;
+  font-size: 15px;
+}
+:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: red;
+  font-size: 15px;
+}
+::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: red;
+  font-size: 15px;
+}
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: red;
+  font-size: 15px;
+}
